@@ -1,0 +1,4 @@
+# allow for tab autocompletion with sudo and man
+complete -cf sudo
+complete -cf man
+

@@ -1,0 +1,14 @@
+# arch linux specific aliases
+alias sudo='sudo '
+alias pacman='pacman --color=auto'
+alias aurget='aurget --noedit --discard --deps' 
+alias sublime='subl3'
+alias pep8='pep8 --show-source --ignore=E501'
+
+if [ $UID -ne 0 ]; then
+	alias update='sudo pacman -Syu'
+fi
+
+alias compile='g++ -pedantic -std=c++11 -Wall -Wextra -Wold-style-cast -Wstrict-overflow -Woverloaded-virtual -Wsign-promo -Wcast-align -Wredundant-decls'
+
+alias ccompile='clang++ -pedantic -std=c++11 -stdlib=libc++ -lc++abi -Wall -Wextra -Wold-style-cast -Wstrict-overflow -Woverloaded-virtual -Wsign-promo -Wcast-align -Wredundant-decls'

@@ -1,0 +1,36 @@
+[user]
+	name = Jonathan Marini
+	email = j.marini@ieee.org
+
+[github]
+	user = bloodandiron
+	token = **REMOVED**
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[core]
+	editor = vim
+
+[merge]
+	tool = vimdiff
+
+[alias]
+    ls = log --pretty=format:"%C(yellow)%h\\ %C(magenta)[%ad]\\ %Creset%s" --decorate --date=short
+    lt = log --pretty=format:"%C(yellow)%h\\ %C(magenta)[%ad]\\ %Creset%s%Cgreen%d\\ %Cblue[%cn]" --graph --date=short
+    st = status -s
+    ap = add -p
+    df = diff
+    cl = clone
+    ci = commit
+    co = checkout
+    br = branch
+    r = reset
+    r1 = reset HEAD^
+    r2 = reset HEAD^^
+    rh = reset --hard
+    rh1 = reset HEAD^ --hard
+    rh2 = reset HEAD^^ --hard
+    gg = grep --break --heading -n

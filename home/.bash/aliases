@@ -1,0 +1,20 @@
+alias ls='ls --color=always'
+alias la='ls -A --color=always'
+alias grep='grep --color=always'
+alias mkdir='mkdir -p -v' # make directories as needed and output them
+alias ping='ping -c 5'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+alias ..='cd ..'
+alias open='xdg-open >/dev/null 2>&1'
+alias less='less -R'
+alias tree='tree -C'
+alias gst='git status -s'
+
+if [ $UID -ne 0 ]; then
+	alias reboot='sudo reboot'
+	alias update='sudo pacman-color -Syu'
+	alias root='sudo su'
+fi
+
