@@ -12,3 +12,5 @@ fi
 alias compile='g++ -pedantic -std=c++11 -Wall -Wextra -Wold-style-cast -Wstrict-overflow -Woverloaded-virtual -Wsign-promo -Wcast-align -Wredundant-decls'
 
 alias ccompile='clang++ -pedantic -std=c++11 -stdlib=libc++ -lc++abi -Wall -Wextra -Wold-style-cast -Wstrict-overflow -Woverloaded-virtual -Wsign-promo -Wcast-align -Wredundant-decls'
+
+source ~/.homesick/repos/homeshick/homeshick.sh

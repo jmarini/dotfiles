@@ -1,10 +1,13 @@
+[include]
+    path = ~/.gitconfig.local
+
 [user]
-	name = Jonathan Marini
-	email = j.marini@ieee.org
+    name = Jonathan Marini
+    email = j.marini@ieee.org
 
 [github]
-	user = bloodandiron
-	token = **REMOVED**
+    user = bloodandiron
+
 
 [color]
 	diff = auto
