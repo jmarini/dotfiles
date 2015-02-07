@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/themes/Twilight-NoItalic.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"font_face": "Consolas",
 	"font_size": 11,

@@ -6,19 +6,22 @@
     email = j.marini@ieee.org
 
 [github]
-    user = bloodandiron
+    user = jmarini
 
 
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+    diff = auto
+    status = auto
+    branch = auto
 
 [core]
-	editor = vim
+    editor = vim
 
 [merge]
-	tool = vimdiff
+    tool = vimdiff
+
+[http]
+    sslCAPath = /home/jmarini/.git-certs/
 
 [alias]
     ls = log --pretty=format:"%C(yellow)%h\\ %C(magenta)[%ad]\\ %Creset%s" --decorate --date=short
