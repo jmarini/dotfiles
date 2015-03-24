@@ -8,7 +8,6 @@
 [github]
     user = jmarini
 
-
 [color]
     diff = auto
     status = auto
@@ -40,3 +39,6 @@
     rh1 = reset HEAD^ --hard
     rh2 = reset HEAD^^ --hard
     gg = grep --break --heading -n
+
+[init]
+	templatedir = /home/jmarini/.git-templates
