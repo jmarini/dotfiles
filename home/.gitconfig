@@ -25,19 +25,16 @@
 [alias]
     ls = log --pretty=format:"%C(yellow)%h\\ %C(magenta)[%ad]\\ %Creset%s" --decorate --date=short
     lt = log --pretty=format:"%C(yellow)%h\\ %C(magenta)[%ad]\\ %Creset%s%Cgreen%d\\ %Cblue[%cn]" --graph --date=short
-    st = status -s
+    st = status
     ap = add -p
     df = diff
+    dc = diff --cached
     cl = clone
     ci = commit
     co = checkout
     br = branch
-    r = reset
-    r1 = reset HEAD^
-    r2 = reset HEAD^^
-    rh = reset --hard
-    rh1 = reset HEAD^ --hard
-    rh2 = reset HEAD^^ --hard
+    rh = reset
+    rhh = reset --hard
     gg = grep --break --heading -n
 
 [init]

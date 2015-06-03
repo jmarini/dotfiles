@@ -37,6 +37,7 @@ set wildmode=longest,list,full	" 1st: complete as much as possible
 								" 3rd+: cycle
 set wildmenu 		" turn on tab completion
 set tabstop=4		" number of spaces that <tab> counts as
+set expandtab		" expand tabs to spaces
 set shiftwidth=4	" number of spaces to use for each (auto)indent step
 set softtabstop=4
 

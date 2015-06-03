@@ -4,3 +4,6 @@ complete -cf man
 
 # travis ci
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+
+# git flow
+[ -f ~/.bash/git-flow-completion.sh ] && source ~/.bash/git-flow-completion.sh
