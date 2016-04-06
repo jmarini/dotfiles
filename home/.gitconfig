@@ -4,6 +4,7 @@
 [user]
     name = Jonathan Marini
     email = j.marini@ieee.org
+    signingkey = A0582BD1
 
 [github]
     user = jmarini
@@ -29,6 +30,7 @@
     ap = add -p
     df = diff
     dc = diff --cached
+    dw = diff --color-words
     cl = clone
     ci = commit
     co = checkout
@@ -38,4 +40,7 @@
     gg = grep --break --heading -n
 
 [init]
-	templatedir = /home/jmarini/.git-templates
+    templatedir = /home/jmarini/.git-templates
+
+[commit]
+    gpgsign = true
