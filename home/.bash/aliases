@@ -16,5 +16,6 @@ if [ $UID -ne 0 ]; then
 	alias reboot='sudo reboot'
 	alias update='sudo pacman-color -Syu'
 	alias root='sudo su'
+	alias ls-paccache='(cd /var/cache/pacman/pkg; du -a ./ | sort -rn | head -n 10)'
 fi
 
